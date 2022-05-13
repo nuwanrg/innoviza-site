@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .display {
+    @apply text-display;
+  }
+
+  h1 {
+    @apply text-h1-md lg:text-h1 font-700 text-white;
+  }
+
+  h2 {
+    @apply text-h2-md lg:text-h2 font-600 text-white;
+  }
+
+  h3 {
+    @apply text-h3-md lg:text-h3 font-600 text-white;
+  }
+
+  h4 {
+    @apply text-h4;
+  }
+
+  h5 {
+    @apply text-h5-md lg:text-h5 font-500;
+  }
+
+  a {
+    @apply font-400;
+    transition: all 0.15s ease-in-out;
+    color: rgba(255, 255, 255, 0.82);
+
+    &:hover {
+      @apply text-N-100;
+    }
+  }
+
+  p {
+    @apply font-400;
+    color: rgba(255, 255, 255, 0.82);
+  }
+}

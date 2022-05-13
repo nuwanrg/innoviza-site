@@ -1,0 +1,22 @@
+.tech-chip {
+  backdrop-filter: blur(80px);
+  background: rgba(4, 13, 31, 0.9);
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.15s ease-in-out;
+  cursor: default;
+
+  img {
+    opacity: 0.8;
+    transition: all 0.15s ease-in-out;
+  }
+
+  &:hover {
+    @apply text-white;
+
+    img {
+      opacity: 1;
+    }
+
+    transform: scale(1.08);
+  }
+}

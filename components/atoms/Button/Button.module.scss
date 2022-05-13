@@ -1,0 +1,33 @@
+.button {
+  @apply border-[2px] border-solid border-[transparent] px-[28px] h-[76px] rounded-full min-w-[100px] font-500;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-1px);
+    transition-duration: 0.2s;
+  }
+
+  /* Size ==> Small */
+  &--sm {
+    @apply px-[28px] h-[60px] min-w-[120px];
+  }
+
+  /* Appearance ==> Primary */
+  &--primary {
+    @apply border-[0px] text-N-800 bg-white;
+  }
+
+  /* Appearance ==> Default */
+  &--default {
+    @apply border-N-700 bg-N-700 text-white hover:bg-N-800;
+
+    &.button--outline {
+      @apply border-N-700 bg-[transparent] text-white hover:bg-N-700 hover:border-N-700 hover:text-white;
+    }
+  }
+
+  /* Appearance ==> Ghost */
+  &--ghost {
+    @apply border-[transparent] bg-[transparent] text-white hover:bg-N-700;
+  }
+}

@@ -1,0 +1,10 @@
+.accordion {
+  @apply mb-[20px];
+
+  &__header {
+    @apply lg:text-h6 rounded-[8px] px-[24px] py-[20px] flex items-center w-full;
+    backdrop-filter: blur(40px);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.15s ease-in-out;
+  }
+}

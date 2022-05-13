@@ -1,0 +1,36 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-[#030916];
+}
+
+/* Container */
+.container {
+  @apply px-[32px];
+}
+
+/* Swiper Global Styles */
+.swiper {
+  display: flex;
+  flex-direction: column-reverse;
+  @apply gap-[20px] lg:gap-[60px];
+
+  &-pagination {
+    padding-left: 20px;
+  }
+
+  &-wrapper {
+    width: 100%;
+  }
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #030916;
+  background: white;
+}
+
+::selection {
+  color: #030916;
+  background: white;
+}

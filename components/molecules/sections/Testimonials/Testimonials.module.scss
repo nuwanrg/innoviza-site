@@ -1,0 +1,40 @@
+.testimonials {
+  &__bg-layer {
+    height: 540px;
+    position: absolute;
+    width: 100%;
+    border-radius: 28px;
+  }
+
+  .container {
+    backdrop-filter: blur(40px);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.slider {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  &__nav {
+    display: flex;
+
+    &__bullet {
+      background: linear-gradient(91.69deg, #ff771f -13.32%, #ffa942 110.53%);
+      border-radius: 90px;
+      cursor: pointer;
+      display: inline-flex;
+      height: 8px;
+      margin-right: 8px;
+      transform-origin: top left;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.4, 2);
+      width: 20px;
+
+      &--active {
+        background: linear-gradient(78.04deg, #f31c8b 0.29%, #ffa942 106.32%);
+        width: 60px;
+      }
+    }
+  }
+}
