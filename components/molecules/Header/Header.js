@@ -19,13 +19,13 @@ export const Header = props => {
         {!isMobile && <Menu />}
 
         <div className='flex items-center'>
-          <Link href='https://calendly.com/amithw' passHref>
+          <Link href='' passHref>
             {isDesktop ? (
               <Button appearance='ghost' size='sm'>
                 Contact Us
               </Button>
             ) : (
-              <a>Let&apos;s Talk</a>
+              <a>Contact Us</a>
             )}
           </Link>
         </div>

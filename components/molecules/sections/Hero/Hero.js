@@ -24,7 +24,8 @@ export const Hero = ({ className, children, ...restProps }) => {
         <div className='flex justify-center w-full pb-[40px] pt-[20px]'>
           <Image
             unoptimized
-            src='/muffin-tech-image-001.png'
+            // src='/muffin-tech-image-001.png'
+            src='/heroimage.png'
             alt='hero'
             width={370}
             height={370}
