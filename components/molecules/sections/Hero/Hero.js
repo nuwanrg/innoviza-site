@@ -35,7 +35,7 @@ export const Hero = ({ className, children, ...restProps }) => {
       <div className='container relative z-[200]'>
         <div className='hero__left lg:max-w-[460px]'>
           <h1 className='mb-[40px] text-center lg:text-left'>
-            Engineering Web 3.0
+            Building Web 3.0
           </h1>
 
           <p className='mb-[60px] lg:mb-[80px] lg:pr-[60px] lg:text-md text-center max-w-[400px] lg:max-w-none mx-auto lg:mx-0 lg:text-left'>
@@ -57,11 +57,11 @@ If you are looking to build a DApp or integrate decentralized technologies into 
               </Button>
             </Link>
 
-            <Link href='https://calendly.com/amithw' passHref>
+            {/* <Link href='https://calendly.com/amithw' passHref>
               <Button appearance='ghost' className='w-full md:w-auto'>
                 Schedule a Call
               </Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -69,7 +69,8 @@ If you are looking to build a DApp or integrate decentralized technologies into 
           <div className='absolute top-0 bottom-0 right-[-120px] my-auto hero__right w-[700px] h-[700px]'>
             <Image
               unoptimized
-              src='/muffin-tech-image-001.png'
+              // src='/muffin-tech-image-001.png'
+              src='/heroimage.png'
               alt='hero'
               width={700}
               height={700}

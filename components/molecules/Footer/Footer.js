@@ -30,7 +30,7 @@ export const Footer = ({ className, children, ...restProps }) => {
       {(isMobile || isTablet) && <FooterBgMobile />}
       
       <div className='container flex flex-col items-center justify-center'>
-        <Logo className='mb-[38px]' />
+        {/* <Logo className='mb-[38px]' /> */}
         <SocialLinks />
 
         <div className='footer__links pt-[40px] pb-[28px]'>

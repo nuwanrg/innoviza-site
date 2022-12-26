@@ -16,18 +16,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Muffin.Tech — Baking Web 3.0 Projects</title>
-        <meta name='title' content='Muffin.Tech — Baking Web 3.0 Projects' />
+        <title>Block365 — Engineering Web 3.0 Projects</title>
+        <meta name='title' content='Block365 — Engineering Web 3.0 Projects' />
         <meta
           name='description'
           content='Hire Web 3 software engineers to build your metaverse project. Solidity and Rust developers, Solana and Ethereum based blockchain project development including NFT’s, P2E, and marketplaces.'
         />
 
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://muffintech.xyz' />
+        <meta property='og:url' content='https://block365.io' />
         <meta
           property='og:title'
-          content='Muffin.Tech — Baking Web 3.0 Projects'
+          content='Block365 — Engineering Web 3.0 Projects'
         />
         <meta
           property='og:description'
@@ -35,14 +35,14 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://muffintech.xyz/social-covers/og-image.png'
+          content='https://block365.io/social-covers/og-image.png'
         />
 
         <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://muffintech.xyz' />
+        <meta property='twitter:url' content='https://block365.io' />
         <meta
           property='twitter:title'
-          content='Muffin.Tech — Baking Web 3.0 Projects'
+          content='Block365 — Engineering Web 3.0 Projects'
         />
         <meta
           property='twitter:description'
@@ -50,10 +50,10 @@ export default function Home() {
         />
         <meta
           property='twitter:image'
-          content='https://muffintech.xyz/social-covers/og-image.png'
+          content='https://block365.io/social-covers/og-image.png'
         />
 
-        <link rel='icon' href='/favicon.png' />
+        {/* <link rel='icon' href='/favicon.png' /> */}
 
         <script
           dangerouslySetInnerHTML={{
@@ -67,8 +67,8 @@ export default function Home() {
       <Header />
       <Hero />
       <TechScroll />
-      <Services />
-      {/* <SummaryInNumbers />
+       {/*<Services />
+      <SummaryInNumbers />
 
       <Testimonials />
       <CallToAction /> */}
