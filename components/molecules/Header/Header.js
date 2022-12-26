@@ -12,8 +12,8 @@ export const Header = props => {
   return (
     <div className={CN(styles['header'], 'relative z-10')}>
       <div className='container flex items-center justify-between py-[40px] lg:py-[60px]'>
-        <Link href='/' passHref>
-          <Logo className='flex items-center' />
+        <Link href='/' passHref>Block365
+          {/* <Logo className='flex items-center' /> */}
         </Link>
 
         {!isMobile && <Menu />}
@@ -22,7 +22,7 @@ export const Header = props => {
           <Link href='https://calendly.com/amithw' passHref>
             {isDesktop ? (
               <Button appearance='ghost' size='sm'>
-                Let&apos;s Talk
+                Contact Us
               </Button>
             ) : (
               <a>Let&apos;s Talk</a>

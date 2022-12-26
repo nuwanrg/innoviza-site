@@ -18,7 +18,7 @@ export const Hero = ({ className, children, ...restProps }) => {
         className
       )}
       {...restProps}>
-      <Blob1 />
+      {/* <Blob1 /> */}
 
       {!isDesktop && (
         <div className='flex justify-center w-full pb-[40px] pt-[20px]'>
@@ -35,12 +35,16 @@ export const Hero = ({ className, children, ...restProps }) => {
       <div className='container relative z-[200]'>
         <div className='hero__left lg:max-w-[460px]'>
           <h1 className='mb-[40px] text-center lg:text-left'>
-            Baking Web 3.0 Projects
+            Engineering Web 3.0
           </h1>
 
           <p className='mb-[60px] lg:mb-[80px] lg:pr-[60px] lg:text-md text-center max-w-[400px] lg:max-w-none mx-auto lg:mx-0 lg:text-left'>
-            Web3.0 bakers: Solidity & Rust development, Front-end development,
-            content and Community managers, project managers and more.
+          Block365 is a team of Web3 Experts who are passionate about web3 and blockchain.
+<br></br><br></br>
+We are committed to staying at the forefront of the Web 3 ecosystem, and we continuously explore new technologies and approaches to ensure that our clients have access to the best solutions available.
+<br></br><br></br>
+If you are looking to build a DApp or integrate decentralized technologies into your existing application, we would love to work with you. Please don&apos;t hesitate to contact us to learn more about how we can help bring your vision to life.
+
           </p>
 
           <div className='hero__cta md:flex md:justify-center lg:justify-start'>

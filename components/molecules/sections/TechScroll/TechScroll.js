@@ -34,7 +34,7 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
         </h3>
       </div>
 
-      <div className='relative z-[9999] w-full overflow-hidden py-[12px] lg:py-[40px] my-[-40px]'>
+      {/* <div className='relative z-[9999] w-full overflow-hidden py-[12px] lg:py-[40px] my-[-40px]'>
         <Marquee gradient={false}>
           <div className='tech-scroll__slider flex justify-center gap-[20px] mb-[12px] lg:mb-[20px]'>
             {renderList([
@@ -76,11 +76,11 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
             ])}
           </div>
         </Marquee>
-      </div>
+      </div> */}
 
       <div className='container flex justify-start !pl-[68px] lg:pl-[95px] pt-[80px] z-[1000] relative'>
         <p className='max-w-[540px] text-sm lg:text-md'>
-          Muffin uses the most applicable technology for the each project
+          Block365 uses the most applicable technology for the each project
           ensuring the best outcome.
         </p>
       </div>

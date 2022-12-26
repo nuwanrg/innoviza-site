@@ -40,7 +40,7 @@ export const Footer = ({ className, children, ...restProps }) => {
         </div>
 
         <div className='font-normal footer__copyright text-off-white text-[14px] text-center'>
-          Copyright © {copyrightDate} Muffin.Tech {isDesktop && '—'}{' '}
+          Copyright © {copyrightDate} Block365 {isDesktop && '—'}{' '}
           <br className='lg:hidden' />
           All rights reserved
         </div>
