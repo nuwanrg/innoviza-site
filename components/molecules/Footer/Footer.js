@@ -46,7 +46,7 @@ export const Footer = ({ className, children, ...restProps }) => {
         </div>
       </div>
 
-      {isDesktop && <FooterBg />}
+      {/* {isDesktop && <FooterBg />} */}
     </div>
   )
 }
