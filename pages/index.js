@@ -68,10 +68,10 @@ export default function Home() {
       <Hero />
       <TechScroll />
       <Services />
-      <SummaryInNumbers />
+      {/* <SummaryInNumbers />
 
       <Testimonials />
-      <CallToAction />
+      <CallToAction /> */}
       <Footer />
     </>
   )
