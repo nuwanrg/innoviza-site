@@ -40,12 +40,7 @@ export const Hero = ({ className, children, ...restProps }) => {
           </h1>
 
           <p className='mb-[60px] lg:mb-[80px] lg:pr-[60px] lg:text-md text-center max-w-[400px] lg:max-w-none mx-auto lg:mx-0 lg:text-left'>
-          Block365 is a team of Web3 Experts who are passionate about web3 and blockchain.
-<br></br><br></br>
-We are committed to staying at the forefront of the Web 3 ecosystem, and we continuously explore new technologies and approaches to ensure that our clients have access to the best solutions available.
-<br></br><br></br>
-If you are looking to build a DApp or integrate decentralized technologies into your existing application, we would love to work with you. Please don&apos;t hesitate to contact us to learn more about how we can help bring your vision to life.
-
+Blockchain is changing the future as we speak—but where do you start? <br/><br/>Adopt the technology with real-world applications from the expertise in distributed technologies.
           </p>
 
           <div className='hero__cta md:flex md:justify-center lg:justify-start'>

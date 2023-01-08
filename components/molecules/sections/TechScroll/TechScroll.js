@@ -80,7 +80,7 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
 
       <div className='container flex justify-start !pl-[68px] lg:pl-[95px] pt-[80px] z-[1000] relative'>
         <p className='max-w-[540px] text-sm lg:text-md'>
-          Block365 uses the most applicable technology for the each project
+          Muffin uses the most applicable technology for the each project
           ensuring the best outcome.
         </p>
       </div>

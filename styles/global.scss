@@ -34,3 +34,32 @@ body {
   color: #030916;
   background: white;
 }
+
+.ifs-box-area {
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+
+.ifs-box-area > p > h1 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: #60e5fa;
+}
+
+.ifs-box-area > p {
+  background-color: rgb(57, 43, 43);
+  opacity: 0.8;
+  color: white;
+
+  /* border: thin; */
+  /* color: #3ec1d5; */
+  text-align: left;
+  font-size: 17px;
+  width: 100%;
+  height: 277px;
+}

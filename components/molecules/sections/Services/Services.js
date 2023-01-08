@@ -10,39 +10,28 @@ export const Services = ({ className, children, ...restProps }) => {
 
   const servicesList = [
     {
-      title: 'Content & Community Managers',
+      title: 'Smart Contract Development',
       icon: '👾',
       list: [
-        { label: 'Article and content writing' },
-        { label: 'Social media' },
-        { label: 'Community management (Discord)' },
+        { label: 'Solidity, Rust' },
       ],
     },
     {
-      title: 'Project Managers',
+      title: 'Web3 API Intergration',
       icon: '👷‍♂️',
-      list: [{ label: 'Point of contact for project success' }],
+      list: [{ label: 'Moralis' }],
     },
     {
-      title: 'UI/UX Designers',
+      title: 'Backend Services Development for Web3',
       icon: '🎨',
       list: [{ label: 'XD & Figma' }, { label: 'NFT Character development' }],
     },
     {
-      title: 'Front End Engineers',
+      title: 'NFTs',
       icon: '😍',
       list: [{ label: ' React, JavaScript, HTML5, Angular, Ruby, PHP' }],
     },
-    {
-      title: 'Jnr. Back End Engineers',
-      icon: '🧑‍💻',
-      list: [{ label: 'Python, C#, C++, .Net, Java, AWS' }],
-    },
-    {
-      title: 'Snr. Back End Engineers',
-      icon: '🥷',
-      list: [{ label: 'Python, C#, C++, .NET, Java, AWS' }],
-    },
+
     {
       title: 'Rust & Solidity Engineers',
       icon: '⚙️',
@@ -71,8 +60,7 @@ export const Services = ({ className, children, ...restProps }) => {
         <div className='services__heading max-w-[560px] flex flex-col items-center justify-center gap-[40px] mx-auto mb-[60px] lg:mb-[120px]'>
           <Tag>Best in class</Tag>
           <h2 className='text-center'>
-            Services <br className='lg:hidden' />
-            in the Muffinverse
+            Our Services
           </h2>
         </div>
 

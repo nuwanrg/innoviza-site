@@ -8,6 +8,7 @@ import {
   Testimonials,
   TechScroll,
   Services,
+  Services2,
   CallToAction,
   CharactersBlock,
 } from 'components/molecules'
@@ -16,18 +17,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Block365 — Engineering Web 3.0 Projects</title>
-        <meta name='title' content='Block365 — Engineering Web 3.0 Projects' />
+        <title>Innoviza — Engineering Web 3.0 Projects</title>
+        <meta name='title' content='Innoviza — Engineering Web 3.0 Projects' />
         <meta
           name='description'
           content='Hire Web 3 software engineers to build your metaverse project. Solidity and Rust developers, Solana and Ethereum based blockchain project development including NFT’s, P2E, and marketplaces.'
         />
 
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://block365.io' />
+        <meta property='og:url' content='https://innoviza.xyz' />
         <meta
           property='og:title'
-          content='Block365 — Engineering Web 3.0 Projects'
+          content='Innoviza — Engineering Web 3.0 Projects'
         />
         <meta
           property='og:description'
@@ -35,14 +36,14 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://block365.io/social-covers/og-image.png'
+          content='https://Innoviza.xyz/social-covers/og-image.png'
         />
 
         <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://block365.io' />
+        <meta property='twitter:url' content='https://Innoviza.io' />
         <meta
           property='twitter:title'
-          content='Block365 — Engineering Web 3.0 Projects'
+          content='Innoviza — Engineering Web 3.0 Projects'
         />
         <meta
           property='twitter:description'
@@ -50,7 +51,7 @@ export default function Home() {
         />
         <meta
           property='twitter:image'
-          content='https://block365.io/social-covers/og-image.png'
+          content='https://Innoviza.io/social-covers/og-image.png'
         />
 
         {/* <link rel='icon' href='/favicon.png' /> */}
@@ -67,11 +68,12 @@ export default function Home() {
       <Header />
       <Hero />
       <TechScroll />
-       {/*<Services />
+      <Services2 />
+      <Services />
       <SummaryInNumbers />
 
       <Testimonials />
-      <CallToAction /> */}
+      <CallToAction />
       <Footer />
     </>
   )

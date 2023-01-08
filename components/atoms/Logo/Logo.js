@@ -10,8 +10,8 @@ export const Logo = React.forwardRef(({ onClick, href, className }, ref) => {
       <Image
         src='/logo.png'
         alt='Muffin Tech Logo'
-        width={163}
-        height={30}
+        width={220}
+        height={60}
         unoptimized
       />
     </a>
