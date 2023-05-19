@@ -64,12 +64,12 @@ export const Services = ({ className, children, ...restProps }) => {
       )}
       {...restProps}
       id='services'>
-      <Blob3 />
-      <Blob4 />
+      {/* <Blob3 />
+      <Blob4 /> */}
 
       <div className='container px-[95px] relative z-[1000]'>
         <div className='services__heading max-w-[560px] flex flex-col items-center justify-center gap-[40px] mx-auto mb-[60px] lg:mb-[120px]'>
-          <Tag>Best in class</Tag>
+          {/* <Tag>Best in class</Tag> */}
           <h2 className='text-center'>
             Services <br className='lg:hidden' />
             in the Muffinverse

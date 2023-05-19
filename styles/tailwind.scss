@@ -8,15 +8,15 @@
   }
 
   h1 {
-    @apply text-h1-md lg:text-h1 font-700 text-white;
+    @apply text-h1-md lg:text-h1 font-700 text-black;
   }
 
   h2 {
-    @apply text-h2-md lg:text-h2 font-600 text-white;
+    @apply text-h2-md lg:text-h2 font-600 text-black;
   }
 
   h3 {
-    @apply text-h3-md lg:text-h3 font-600 text-white;
+    @apply text-h3-md lg:text-h3 font-600 text-black;
   }
 
   h4 {
@@ -30,7 +30,7 @@
   a {
     @apply font-400;
     transition: all 0.15s ease-in-out;
-    color: rgba(255, 255, 255, 0.82);
+    color: rgb(0, 0, 0);
 
     &:hover {
       @apply text-N-100;
@@ -39,6 +39,6 @@
 
   p {
     @apply font-400;
-    color: rgba(255, 255, 255, 0.82);
+    color: rgb(0, 0, 0);
   }
 }

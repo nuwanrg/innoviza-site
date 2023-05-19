@@ -23,7 +23,7 @@ export const Testimonials = ({ className, children, ...restProps }) => {
       )}
       {...restProps}>
       {(isMobile || isTablet) && <Blob5Mobile />}
-      {isDesktop && <Blob5 />}
+      {/* {isDesktop && <Blob5 />} */}
 
       {isMobile && (
         <span className='flex justify-center'>
