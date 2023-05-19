@@ -23,7 +23,7 @@ export const Footer = ({ className, children, ...restProps }) => {
     <div
       className={CN(
         styles['footer'],
-        'pb-[120px] lg:py-[160px] mt-[220px] md:mt-[260px] relative',
+        'pb-[120px] lg:py-[160px] mt-[0px] md:mt-[0px] relative',
         className
       )}
       {...restProps}>
@@ -39,7 +39,8 @@ export const Footer = ({ className, children, ...restProps }) => {
           <FooterLink href='https://bit.ly/30FUnQU'>FAQ&apos;s</FooterLink>
         </div>
 
-        <div className='font-normal footer__copyright text-off-white text-[14px] text-center'>
+
+        <div className='font-normal footer__copyright text-off-black text-[14px] text-center'>
           Copyright © {copyrightDate} Innoviza {isDesktop && '—'}{' '}
           <br className='lg:hidden' />
           All rights reserved

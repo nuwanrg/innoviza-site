@@ -24,9 +24,9 @@ export const CallToAction = ({ className, children, id, ...restProps }) => {
             styles['call-to-action__actions'],
             'flex lg:items-center flex-col lg:flex-row items-center'
           )}>
-          <Link href='https://calendly.com/amithw' passHref>
+          <Link href='https://calendly.com/agentx' passHref>
             <Button
-              appearance='primary'
+              appearance='default'
               mode='filled'
               size='sm'
               className='w-full lg:w-auto'>
@@ -39,7 +39,7 @@ export const CallToAction = ({ className, children, id, ...restProps }) => {
           <Link href='https://t.me/muffin_tech' passHref>
             <Button
               appearance='default'
-              mode='outline'
+              mode='filled'
               size='sm'
               className='w-full lg:w-auto'>
               Talk to us now

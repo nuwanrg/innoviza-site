@@ -26,20 +26,20 @@ export const SocialLinks = ({ className, children, ...restProps }) => {
       {...restProps}>
       <SocialLink
         href='https://twitter.com/Muffin__Tech'
-        icon={<Twitter color='#fff' />}
+        icon={<Twitter color='#00ACEE' />}
       />
       <SocialLink
         href='https://t.me/muffin_tech'
-        icon={<Telegram color='#fff' />}
+        icon={<Telegram color='#229ED9' />}
       />
       <SocialLink
         href='https://www.linkedin.com/company/muffin-tech'
-        icon={<LinkedIn color='#fff' />}
+        icon={<LinkedIn color='#0072b1' />}
       />
-      <SocialLink
-        href='https://calendly.com/amithw'
+      {/* <SocialLink
+        href='https://calendly.com/agentx'
         icon={<Calendly color='#fff' />}
-      />
+      /> */}
     </div>
   )
 }

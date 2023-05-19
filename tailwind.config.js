@@ -30,7 +30,7 @@ module.exports = {
         700: '#273040',
         800: '#040D1F',
       },
-      'white': '#fff',
+      'white': '#ffffff',
       'off-white': 'rgba(255, 255, 255, 0.65)',
       'black': '#000',
       'accordion-hover': 'rgba(255, 255, 255, 0.13)',

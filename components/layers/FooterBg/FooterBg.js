@@ -11,11 +11,11 @@ export const FooterBg = ({ className, children, ...restProps }) => {
         className
       )}
       {...restProps}>
-      <img
+      {/* <img
         src='/footer.png'
         alt='Footer bg image'
         className='w-full h-[679px]'
-      />
+      /> */}
     </div>
   )
 }

@@ -20,7 +20,7 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
     <div
       className={CN(
         styles['tech-scroll'],
-        'relative lg:mt-[80px] pb-[60px] lg:pb-[120px] z-[100]',
+        'relative lg:mt-[80px] pb-[60px] lg:pb-[120px] z-[0]',
         className
       )}
       {...restProps}
@@ -28,35 +28,40 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
       <div className='container flex justify-end md:!pr-[95px] relative'>
         <Blob2 />
 
-        <h3 className='md:text-right mb-[84px] relative z-[1000] text-center w-full'>
+        {/* <h3 className='md:text-right mb-[84px] relative z-[1000] text-center w-full'>
           We only use the <br className='lg:hidden' /> best
           <br className='hidden lg:block' /> ingredients
+        </h3> */}
+          <h3 className='md:text-right mb-[84px] relative z-[0] text-center w-full'>
+          Integrations For Your Business <br className='lg:hidden' />
+          
         </h3>
       </div>
 
-      {/* <div className='relative z-[9999] w-full overflow-hidden py-[12px] lg:py-[40px] my-[-40px]'>
+      <div className='relative z-[9999] w-full overflow-hidden py-[12px] lg:py-[40px] my-[-40px]'>
         <Marquee gradient={false}>
           <div className='tech-scroll__slider flex justify-center gap-[20px] mb-[12px] lg:mb-[20px]'>
             {renderList([
-              { label: 'Ethereum', logo: '/scroll-logos/2.svg' },
-              { label: 'Solidity', logo: '/scroll-logos/4.svg' },
-              { label: 'Solana', logo: '/scroll-logos/7.svg' },
-              { label: 'Rust', logo: '/scroll-logos/6.svg' },
-              { label: 'React.js', logo: '/scroll-logos/1.svg' },
-              { label: 'Python', logo: '/scroll-logos/5.svg' },
-              { label: 'Amazon', logo: '/scroll-logos/3.svg' },
-              { label: 'Ethereum', logo: '/scroll-logos/2.svg' },
-              { label: 'Solidity', logo: '/scroll-logos/4.svg' },
-              { label: 'Solana', logo: '/scroll-logos/7.svg' },
-              { label: 'Rust', logo: '/scroll-logos/6.svg' },
-              { label: 'React.js', logo: '/scroll-logos/1.svg' },
-              { label: 'Python', logo: '/scroll-logos/5.svg' },
-              { label: 'Amazon', logo: '/scroll-logos/3.svg' },
+              { label: 'WhatsApp', logo: '/whatsapp.png' },
+              { label: 'Facebook', logo: '/facebook.png' },
+              // { label: 'Salesforce', logo: '/salesforce.png' },
+              { label: 'Hubspot', logo: '/hubspot.png' },
+              // { label: 'Rust', logo: '/scroll-logos/6.svg' },
+              // { label: 'React.js', logo: '/scroll-logos/1.svg' },
+              // { label: 'Python', logo: '/scroll-logos/5.svg' },
+              // { label: 'Amazon', logo: '/scroll-logos/3.svg' },
+              // { label: 'Ethereum', logo: '/scroll-logos/2.svg' },
+              // { label: 'Solidity', logo: '/scroll-logos/4.svg' },
+              // { label: 'Solana', logo: '/scroll-logos/7.svg' },
+              // { label: 'Rust', logo: '/scroll-logos/6.svg' },
+              // { label: 'React.js', logo: '/scroll-logos/1.svg' },
+              // { label: 'Python', logo: '/scroll-logos/5.svg' },
+              // { label: 'Amazon', logo: '/scroll-logos/3.svg' },
             ])}
           </div>
         </Marquee>
 
-        <Marquee gradient={false} direction='right'>
+        {/* <Marquee gradient={false} direction='right'>
           <div className='tech-scroll__slider flex justify-center gap-[20px]'>
             {renderList([
               { label: 'Solana', logo: '/scroll-logos/7.svg' },
@@ -74,13 +79,12 @@ export const TechScroll = ({ className, children, id, ...restProps }) => {
               { label: 'Solidity', logo: '/scroll-logos/4.svg' },
               { label: 'Amazon', logo: '/scroll-logos/3.svg' },
             ])}
-          </div>
-        </Marquee>
-      </div> */}
-
+          </div> 
+        </Marquee>*/}
+      </div> 
       <div className='container flex justify-start !pl-[68px] lg:pl-[95px] pt-[80px] z-[1000] relative'>
         <p className='max-w-[540px] text-sm lg:text-md'>
-          Muffin uses the most applicable technology for the each project
+          Inoviza uses the most applicable technology for the each project
           ensuring the best outcome.
         </p>
       </div>

@@ -12,13 +12,16 @@ import {
   CallToAction,
   CharactersBlock,
 } from 'components/molecules'
-
+import { AuthProvider } from "../contexts/AuthContext"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import {Dashboard} from './Dashboard'
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Innoviza — Engineering Web 3.0 Projects</title>
-        <meta name='title' content='Innoviza — Engineering Web 3.0 Projects' />
+
+        <title>Innoviza.Tech — AI Technology</title>
+        <meta name='title' content=' — Baking Web 3.0 Projects' />
         <meta
           name='description'
           content='Hire Web 3 software engineers to build your metaverse project. Solidity and Rust developers, Solana and Ethereum based blockchain project development including NFT’s, P2E, and marketplaces.'
@@ -28,7 +31,9 @@ export default function Home() {
         <meta property='og:url' content='https://innoviza.xyz' />
         <meta
           property='og:title'
-          content='Innoviza — Engineering Web 3.0 Projects'
+
+          content='Innoviza.Tech — Baking Web 3.0 Projects'
+
         />
         <meta
           property='og:description'
@@ -36,14 +41,14 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://Innoviza.xyz/social-covers/og-image.png'
+          content='https://Innovizatech.xyz/social-covers/og-image.png'
         />
 
         <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://Innoviza.io' />
+        <meta property='twitter:url' content='https://Innovizatech.xyz' />
         <meta
           property='twitter:title'
-          content='Innoviza — Engineering Web 3.0 Projects'
+          content='Innoviza.Tech — Baking Web 3.0 Projects'
         />
         <meta
           property='twitter:description'
@@ -51,7 +56,9 @@ export default function Home() {
         />
         <meta
           property='twitter:image'
-          content='https://Innoviza.io/social-covers/og-image.png'
+
+          content='https://Innovizatech.xyz/social-covers/og-image.png'
+
         />
 
         {/* <link rel='icon' href='/favicon.png' /> */}
@@ -65,16 +72,22 @@ export default function Home() {
           async></script>
       </Head>
 
+      <AuthProvider>
       <Header />
-      <Hero />
-      <TechScroll />
-      <Services2 />
-      <Services />
-      <SummaryInNumbers />
 
-      <Testimonials />
+      <Hero />
+
+      <TechScroll />
+      {/* <Services />  */}
+      {/* <SummaryInNumbers /> */}
+
+      {/* <Testimonials /> */}
       <CallToAction />
       <Footer />
+
+      </AuthProvider>
+
     </>
+    
   )
 }
