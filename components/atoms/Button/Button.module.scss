@@ -19,7 +19,7 @@
 
   /* Appearance ==> Default */
   &--default {
-    @apply border-N-700 bg-N-700 text-black hover:bg-N-800;
+    @apply border-N-10 bg-N-900 text-black hover:bg-N-600;
 
     &.button--outline {
       @apply border-N-700 bg-[transparent] text-black hover:bg-N-700 hover:border-N-700 hover:text-black;
